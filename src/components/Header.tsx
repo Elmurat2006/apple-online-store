@@ -43,9 +43,10 @@ const Header:FC = () => {
             </li>
 
             <li className = "ml-6">
-                <a href="">
-                    products
-                </a>
+                <Link to = "/Products">
+                    Products
+                </Link>
+
             </li>
 
             <li className = "ml-6">
@@ -92,3 +93,4 @@ const Header:FC = () => {
 }
 
 export default Header
+

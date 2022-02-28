@@ -1,6 +1,7 @@
 import React,{FC} from 'react'
 import {Link} from 'react-router-dom'
 
+
   
 import {IProductItem} from '../types/Types'
 import {IMacItem} from '../types/Types'
@@ -74,7 +75,7 @@ const Home:FC = () => {
                 ))}
 
     </div>
-  )
+ )
 }
 
 export default Home

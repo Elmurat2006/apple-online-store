@@ -5,6 +5,7 @@ import Iphones from './components/Iphones'
 import Macbooks from './components/Macbooks'
 import Airpods from './components/Airpods'
 import Layout from './components/Layout';
+import Header from './components/Header'
 
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 
@@ -17,7 +18,8 @@ ReactDOM.render(
   <React.StrictMode>
       <Router> 
         <div className="app">
-          <Layout />
+        <Layout />
+          <App/>
           <main>
             <Route  exact  path ="/Iphones" >
                <Iphones/>
